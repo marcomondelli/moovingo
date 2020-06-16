@@ -1,0 +1,146 @@
+.navbar {
+  padding-right: 12vw !important;
+  background-color: black !important;
+}
+
+.browse-listing {
+  margin: -1vw 0 0 0vw !important;
+}
+
+.nav-item,
+.nav-link,
+.dropdown-item {
+  color: black !important;
+}
+
+.propDet {
+  margin: 6vw 20vw 0 20vw;
+}
+
+.grid-container-contacts {
+  display: grid;
+  grid-template-columns: 20% 22% 18% 40%;
+  width: 100%;
+}
+
+.grid-container-contacts > div > a {
+  color: #0fccd8 !important;
+  text-decoration: none;
+}
+
+.titulo-property-details {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.info-property {
+  display: grid;
+  grid-template-columns: 15% 60% 25%;
+  width: 100%;
+  padding-bottom: 2vw;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2vw;
+}
+
+.info-property > div > button {
+  padding: 0.5vw 1vw;
+  background-color: transparent;
+  border: 2px solid #535353;
+  border-radius: 0.5vw;
+  color: #535353;
+  cursor: pointer;
+}
+
+.details-property {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (max-width: 414px) {
+  .browse-listing {
+    margin: 0vw 0 0 0vw !important;
+  }
+
+  .propDet {
+    margin: 12vw 3vw 0 3vw;
+  }
+
+  .grid-container-contacts {
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  }
+
+  .info-property {
+    grid-template-columns: 100%;
+    width: 90%;
+  }
+
+  .info-property > div {
+    margin-bottom: 4vw;
+  }
+
+  .info-property > div > button {
+    padding: 2vw 4vw;
+  }
+
+  .titulo-property-details {
+    font-size: 6vw;
+  }
+}
+
+.key-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.key-details__child {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.key-details__child > div {
+  padding-bottom: 1vw;
+}
+
+.key-bold {
+  font-weight: bold;
+}
+
+.features {
+  background-color: #f8f8f8;
+}
+
+.features-details {
+  padding: 4vw 0;
+}
+
+ul > li {
+  margin-bottom: 1vw;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 60%;
+}
+
+.descriptionTwo {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 100%;
+}
+
+@media screen and (max-width: 414px) {
+  .description {
+    grid-template-columns: 100%;
+    width: 90%;
+  }
+
+  .descriptionTwo {
+    grid-template-columns: 100%;
+  }
+}
+
